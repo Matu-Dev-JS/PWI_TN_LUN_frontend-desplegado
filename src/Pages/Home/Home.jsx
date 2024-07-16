@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 import { BiAngry, BiBaseball } from "react-icons/bi";
 import { FiAlertTriangle } from "react-icons/fi";
 import { obtenerProductos } from '../../Fetching/products.fetching';
-import auto from'../../assets/auto.avif'
+
 
 
 const Home = () => {
@@ -62,7 +62,7 @@ const Home = () => {
     return (
         <div>
             <Navbar/>
-            <img src={auto} alt="" />
+            <img src='/auto.avif' alt="" />
             <h1>Lista de productos</h1>
             {isWritting && <h2>Escribiendo...</h2>}
             <input 
